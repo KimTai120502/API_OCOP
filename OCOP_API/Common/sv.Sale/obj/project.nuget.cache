@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ONr22uf9W5Y=",
+  "dgSpecHash": "x48W0t+Faec=",
   "success": true,
-  "projectFilePath": "D:\\STUDY\\OCOP_API\\Common\\sv.Sale\\sv.Sale.csproj",
+  "projectFilePath": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\sv.Sale.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kimta\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\kimta\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",

@@ -2831,11 +2831,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\STUDY\\OCOP_API\\Common\\sv.Sale\\sv.Sale.csproj",
+      "projectUniqueName": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\sv.Sale.csproj",
       "projectName": "sv.Sale",
-      "projectPath": "D:\\STUDY\\OCOP_API\\Common\\sv.Sale\\sv.Sale.csproj",
+      "projectPath": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\sv.Sale.csproj",
       "packagesPath": "C:\\Users\\kimta\\.nuget\\packages\\",
-      "outputPath": "D:\\STUDY\\OCOP_API\\Common\\sv.Sale\\obj\\",
+      "outputPath": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kimta\\AppData\\Roaming\\NuGet\\NuGet.Config",

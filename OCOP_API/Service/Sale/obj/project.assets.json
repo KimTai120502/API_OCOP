@@ -474,11 +474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\STUDY\\OCOP_API\\Service\\Sale\\Sale.csproj",
+      "projectUniqueName": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Sale.csproj",
       "projectName": "Sale",
-      "projectPath": "D:\\STUDY\\OCOP_API\\Service\\Sale\\Sale.csproj",
+      "projectPath": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Sale.csproj",
       "packagesPath": "C:\\Users\\kimta\\.nuget\\packages\\",
-      "outputPath": "D:\\STUDY\\OCOP_API\\Service\\Sale\\obj\\",
+      "outputPath": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kimta\\AppData\\Roaming\\NuGet\\NuGet.Config",

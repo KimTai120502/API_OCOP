@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QPn6vdaoOEo=",
+  "dgSpecHash": "xd5t1XxObcc=",
   "success": true,
-  "projectFilePath": "D:\\STUDY\\OCOP_API\\Service\\Sale\\Sale.csproj",
+  "projectFilePath": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Sale.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kimta\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.19\\microsoft.aspnetcore.openapi.7.0.19.nupkg.sha512",
     "C:\\Users\\kimta\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\STUDY\\OCOP_API\\",
+  "WorkspaceRootPath": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\ocop_api\\service\\sale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\service\\sale\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|solutionrelative:service\\sale\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\service\\sale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|solutionrelative:service\\sale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Service\\Sale\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Service\\Sale\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:06:08.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\STUDY\\OCOP_API\\Service\\Sale\\Program.cs",
+              "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Program.cs",
               "RelativeDocumentMoniker": "Service\\Sale\\Program.cs",
-              "ToolTip": "D:\\STUDY\\OCOP_API\\Service\\Sale\\Program.cs",
+              "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Program.cs",
               "RelativeToolTip": "Service\\Sale\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T05:17:37.898Z",
               "EditorCaption": ""
