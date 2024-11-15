@@ -1,0 +1,15 @@
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\bin\Debug\net7.0\sv.Sale.deps.json
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\bin\Debug\net7.0\sv.Sale.runtimeconfig.json
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\bin\Debug\net7.0\sv.Sale.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\bin\Debug\net7.0\sv.Sale.pdb
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\sv.Sale.csproj.AssemblyReference.cache
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\sv.Sale.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\sv.Sale.AssemblyInfoInputs.cache
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\sv.Sale.AssemblyInfo.cs
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\sv.Sale.csproj.CoreCompileInputs.cache
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\sv.Sale.sourcelink.json
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\sv.Sale.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\refint\sv.Sale.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\sv.Sale.pdb
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\sv.Sale.genruntimeconfig.cache
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Sale\obj\Debug\net7.0\ref\sv.Sale.dll

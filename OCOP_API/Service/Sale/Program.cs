@@ -1,3 +1,7 @@
+﻿using sv.Sale;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -10,8 +14,28 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors((options) => options.AddPolicy("CustomCors", build => { build.WithOrigins("*").AllowAnyHeader().AllowAnyMethod(); }));
 
 #region Register Util Repository
+// Register DapperContext 
+builder.Services.AddSingleton<sv.Sale.Context.DapperContext>();
+
+// Register Dabase Context Entity Framework 
+builder.Services.AddDbContext<sv.Sale.DBModels.SaleContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnectionString"));
+});
 
 #endregion
+
+#region Register Main Repository
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+#endregion
+
+// Thêm cấu hình JSON Serializer để giữ nguyên tên Field không thay đổi sang camelCase
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNamingPolicy = null;
+});
+
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
