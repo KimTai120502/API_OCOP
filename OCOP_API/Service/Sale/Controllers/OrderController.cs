@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Sale.Models.Response;
 using sv.Sale;
 using sv.Sale.DBModels;
 
@@ -15,21 +16,6 @@ namespace Sale.Controllers
         {
             this.productRepository = productRepository;
         }
-
-        [HttpPost]
-        public async Task<ActionResult> AddNewProduct([FromBody] Dictionary<string, object> dicData)
-        {
-            Guid productID = Guid.NewGuid();
-            Guid productCategoryID = Guid.NewGuid();
-            string productName = "Test SP 1";
-            List<City> citys = await this.productRepository.SearchProduct("a");
-            var data = new
-            {
-                Citys = citys,
-                ProductID = productID,
-                ProductCategoryID = productCategoryID,
-            };
-            return Ok(data);
-        }
+      
     }
 }

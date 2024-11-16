@@ -117,3 +117,4 @@ D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Service\Sale\bin\Debug\net7.0\runt
 D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Service\Sale\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Service\Sale\bin\Debug\net7.0\sv.Sale.dll
 D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Service\Sale\bin\Debug\net7.0\sv.Sale.pdb
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Service\Sale\bin\Debug\net7.0\Newtonsoft.Json.dll
