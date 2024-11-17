@@ -42,5 +42,16 @@ namespace sv.Sale
                 return await connection.QueryFirstOrDefaultAsync<Store>(query, param);
             }
         }
+        public async Task<List<DescriptionImage>> GetStoreImg(string storeID)
+        {
+            DynamicParameters param = new DynamicParameters();
+            var query = "SELECT * FROM dbo.[Description_Image] With(nolock) Where storeID = @storeID";
+
+            param.Add("storeID", storeID);
+            using (var connection = this.dapperContext.CreateConnection())
+            {
+                return (await connection.QueryAsync<DescriptionImage>(query, param)).ToList();
+            }
+        }
     }
 }

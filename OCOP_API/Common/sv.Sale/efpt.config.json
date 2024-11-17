@@ -15,6 +15,10 @@
    "T4TemplatePath": null,
    "Tables": [
       {
+         "Name": "[dbo].[Cart]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[City]",
          "ObjectType": 0
       },

@@ -18,6 +18,7 @@ namespace sv.Sale.DBModels
         {
         }
 
+        public virtual DbSet<Cart> Carts { get; set; }
         public virtual DbSet<City> Cities { get; set; }
         public virtual DbSet<DescriptionImage> DescriptionImages { get; set; }
         public virtual DbSet<Discount> Discounts { get; set; }
@@ -41,6 +42,42 @@ namespace sv.Sale.DBModels
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Cart>(entity =>
+            {
+                entity.ToTable("Cart");
+
+                entity.Property(e => e.CartId)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("cartID");
+
+                entity.Property(e => e.ProductId)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("productID");
+
+                entity.Property(e => e.Quantity).HasColumnName("quantity");
+
+                entity.Property(e => e.UserId)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("userID");
+
+                entity.HasOne(d => d.Product)
+                    .WithMany(p => p.Carts)
+                    .HasForeignKey(d => d.ProductId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Cart_Product");
+
+                entity.HasOne(d => d.User)
+                    .WithMany(p => p.Carts)
+                    .HasForeignKey(d => d.UserId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Cart_User");
+            });
+
             modelBuilder.Entity<City>(entity =>
             {
                 entity.ToTable("City");
@@ -378,6 +415,8 @@ namespace sv.Sale.DBModels
 
                 entity.Property(e => e.IsDiscountPercent).HasColumnName("isDiscountPercent");
 
+                entity.Property(e => e.MainImage).HasColumnName("mainImage");
+
                 entity.Property(e => e.Price).HasColumnName("price");
 
                 entity.Property(e => e.ProductCategoryId)
@@ -454,6 +493,8 @@ namespace sv.Sale.DBModels
                     .IsUnicode(false)
                     .HasColumnName("imageLink");
 
+                entity.Property(e => e.IsMain).HasColumnName("isMain");
+
                 entity.Property(e => e.ProductId)
                     .IsRequired()
                     .HasMaxLength(50)
@@ -469,9 +510,12 @@ namespace sv.Sale.DBModels
 
             modelBuilder.Entity<Rating>(entity =>
             {
-                entity.HasNoKey();
-
                 entity.ToTable("Rating");
+
+                entity.Property(e => e.RatingId)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("ratingID");
 
                 entity.Property(e => e.Comment).HasColumnName("comment");
 
@@ -481,28 +525,24 @@ namespace sv.Sale.DBModels
                     .IsUnicode(false)
                     .HasColumnName("CustomerID");
 
+                entity.Property(e => e.MediaLink).HasColumnName("mediaLink");
+
                 entity.Property(e => e.ProductId)
                     .IsRequired()
                     .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("ProductID");
 
-                entity.Property(e => e.RatingId)
-                    .IsRequired()
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("ratingID");
-
                 entity.Property(e => e.Star).HasColumnName("star");
 
                 entity.HasOne(d => d.Customer)
-                    .WithMany()
+                    .WithMany(p => p.Ratings)
                     .HasForeignKey(d => d.CustomerId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Rating2_User2");
 
                 entity.HasOne(d => d.Product)
-                    .WithMany()
+                    .WithMany(p => p.Ratings)
                     .HasForeignKey(d => d.ProductId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Rating2_Product2");

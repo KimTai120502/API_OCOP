@@ -6,7 +6,7 @@ namespace Sale.Controllers
 {
     [Route("~/sale/[controller]/[action]")]
     [ApiController]
-    public class StoreController : ControllerBase
+    public class StoreController : BaseController
     {
         private readonly IProductRepository productRepository;
 

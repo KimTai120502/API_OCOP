@@ -133,7 +133,7 @@ namespace sv.Sale
         {
             try
             {
-                using (var transaction = this.dbContext.Database.BeginTransaction())
+                using (var transaction = await this.dbContext.Database.BeginTransactionAsync())
                 {
                     try
                     {
@@ -178,6 +178,6 @@ namespace sv.Sale
             return BCrypt.Net.BCrypt.Verify(password, hashedPassword);
         }
         #endregion
-
+       
     }
 }

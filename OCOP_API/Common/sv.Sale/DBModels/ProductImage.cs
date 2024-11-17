@@ -10,6 +10,7 @@ namespace sv.Sale.DBModels
         public string ImageId { get; set; }
         public string ProductId { get; set; }
         public string ImageLink { get; set; }
+        public bool? IsMain { get; set; }
 
         public virtual Product Product { get; set; }
     }

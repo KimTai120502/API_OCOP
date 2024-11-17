@@ -9,8 +9,10 @@ namespace sv.Sale.DBModels
     {
         public Product()
         {
+            Carts = new HashSet<Cart>();
             OrderDetails = new HashSet<OrderDetail>();
             ProductImages = new HashSet<ProductImage>();
+            Ratings = new HashSet<Rating>();
             UserReportProducts = new HashSet<UserReportProduct>();
         }
 
@@ -27,11 +29,14 @@ namespace sv.Sale.DBModels
         public double? Rating { get; set; }
         public bool? IsDiscountPercent { get; set; }
         public double? DiscountAmount { get; set; }
+        public string MainImage { get; set; }
 
         public virtual ProductCategory ProductCategory { get; set; }
         public virtual Store Store { get; set; }
+        public virtual ICollection<Cart> Carts { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
         public virtual ICollection<ProductImage> ProductImages { get; set; }
+        public virtual ICollection<Rating> Ratings { get; set; }
         public virtual ICollection<UserReportProduct> UserReportProducts { get; set; }
     }
 }

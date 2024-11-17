@@ -29,6 +29,9 @@ builder.Services.AddDbContext<sv.Sale.DBModels.SaleContext>(options =>
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUtilsRepository, UtilsRepository>();
+builder.Services.AddScoped<IStoreRepository, StoreRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<ICartRepository, CartRepository>();
 #endregion
 
 // Thêm cấu hình JSON Serializer để giữ nguyên tên Field không thay đổi sang camelCase
