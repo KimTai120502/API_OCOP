@@ -374,6 +374,10 @@ namespace sv.Sale.DBModels
                     .IsRequired()
                     .HasColumnName("description");
 
+                entity.Property(e => e.DiscountAmount).HasColumnName("discountAmount");
+
+                entity.Property(e => e.IsDiscountPercent).HasColumnName("isDiscountPercent");
+
                 entity.Property(e => e.Price).HasColumnName("price");
 
                 entity.Property(e => e.ProductCategoryId)
@@ -386,6 +390,10 @@ namespace sv.Sale.DBModels
                     .IsRequired()
                     .HasMaxLength(100)
                     .HasColumnName("productName");
+
+                entity.Property(e => e.QuantitySold).HasColumnName("quantitySold");
+
+                entity.Property(e => e.Rating).HasColumnName("rating");
 
                 entity.Property(e => e.SearchString)
                     .IsUnicode(false)

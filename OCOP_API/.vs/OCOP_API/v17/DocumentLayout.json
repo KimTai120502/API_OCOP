@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\service\\sale\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|solutionrelative:service\\sale\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\repository\\implement\\storerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\repository\\implement\\storerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\service\\sale\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|solutionrelative:service\\sale\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\repository\\interface\\istorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\repository\\interface\\istorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\service\\sale\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|solutionrelative:service\\sale\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\repository\\implement\\utilsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\repository\\implement\\utilsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\repository\\interface\\iutilsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\repository\\interface\\iutilsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\service\\sale\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|solutionrelative:service\\sale\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\repository\\implement\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +23,44 @@
       "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\repository\\implement\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\repository\\implement\\utilsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\repository\\implement\\utilsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\repository\\interface\\iutilsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\repository\\interface\\iutilsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\service\\sale\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|solutionrelative:service\\sale\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\dbmodels\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\dbmodels\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\dbmodels\\salecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\dbmodels\\salecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\service\\sale\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|solutionrelative:service\\sale\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\service\\sale\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|solutionrelative:service\\sale\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\common\\sv.sale\\repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC2ACF4-62E6-4ADF-9E21-C373C3459B09}|Common\\sv.Sale\\sv.Sale.csproj|solutionrelative:common\\sv.sale\\repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|d:\\study\\luanvan\\sourcecode\\api_ocop\\ocop_api\\service\\sale\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D5FBD6-C401-49F0-9EFC-DC50FDDDBDE7}|Service\\Sale\\Sale.csproj|solutionrelative:service\\sale\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,33 +78,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Common\\sv.Sale\\Repository\\Interface\\IUserRepository.cs",
+              "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "Common\\sv.Sale\\Repository\\Interface\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:39:44.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IStoreRepository.cs",
+              "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Interface\\IStoreRepository.cs",
+              "RelativeDocumentMoniker": "Common\\sv.Sale\\Repository\\Interface\\IStoreRepository.cs",
+              "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Interface\\IStoreRepository.cs",
+              "RelativeToolTip": "Common\\sv.Sale\\Repository\\Interface\\IStoreRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:39:40.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StoreRepository.cs",
+              "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Implement\\StoreRepository.cs",
+              "RelativeDocumentMoniker": "Common\\sv.Sale\\Repository\\Implement\\StoreRepository.cs",
+              "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Implement\\StoreRepository.cs",
+              "RelativeToolTip": "Common\\sv.Sale\\Repository\\Implement\\StoreRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA9wBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:39:29.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "Service\\Sale\\Controllers\\StoreController.cs",
+              "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "Service\\Sale\\Controllers\\StoreController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:37:53.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SaleContext.cs",
+              "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\DBModels\\SaleContext.cs",
+              "RelativeDocumentMoniker": "Common\\sv.Sale\\DBModels\\SaleContext.cs",
+              "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\DBModels\\SaleContext.cs",
+              "RelativeToolTip": "Common\\sv.Sale\\DBModels\\SaleContext.cs",
+              "ViewState": "AQIAAHQBAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:16:35.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\DBModels\\Product.cs",
+              "RelativeDocumentMoniker": "Common\\sv.Sale\\DBModels\\Product.cs",
+              "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\DBModels\\Product.cs",
+              "RelativeToolTip": "Common\\sv.Sale\\DBModels\\Product.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:16:13.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Service\\Sale\\Controllers\\OrderController.cs",
               "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Service\\Sale\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T08:07:20.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "IUtilsRepository.cs",
               "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Interface\\IUtilsRepository.cs",
               "RelativeDocumentMoniker": "Common\\sv.Sale\\Repository\\Interface\\IUtilsRepository.cs",
               "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Interface\\IUtilsRepository.cs",
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Interface\\IUtilsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T07:51:39.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "BaseController.cs",
               "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "Service\\Sale\\Controllers\\BaseController.cs",
@@ -93,72 +195,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Implement\\UserRepository.cs",
               "RelativeDocumentMoniker": "Common\\sv.Sale\\Repository\\Implement\\UserRepository.cs",
               "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Implement\\UserRepository.cs",
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Implement\\UserRepository.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAiwI8AAAAsAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAcwI8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T04:44:25.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Interface\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Common\\sv.Sale\\Repository\\Interface\\IProductRepository.cs",
               "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Interface\\IProductRepository.cs",
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Interface\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T15:05:36.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Service\\Sale\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Service\\Sale\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T15:04:37.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UtilsRepository.cs",
               "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Implement\\UtilsRepository.cs",
               "RelativeDocumentMoniker": "Common\\sv.Sale\\Repository\\Implement\\UtilsRepository.cs",
               "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Implement\\UtilsRepository.cs",
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Implement\\UtilsRepository.cs",
-              "ViewState": "AQIAAJ4AAAAAAAAAAAAAwLIAAAAIAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAKgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T09:02:01.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Implement\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Common\\sv.Sale\\Repository\\Implement\\ProductRepository.cs",
               "ToolTip": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Common\\sv.Sale\\Repository\\Implement\\ProductRepository.cs",
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Implement\\ProductRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA1wCcAAABAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T08:52:45.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\STUDY\\LuanVan\\SourceCode\\API_OCOP\\OCOP_API\\Service\\Sale\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Service\\Sale\\Controllers\\UserController.cs",

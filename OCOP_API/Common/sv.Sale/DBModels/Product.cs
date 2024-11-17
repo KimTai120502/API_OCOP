@@ -23,6 +23,10 @@ namespace sv.Sale.DBModels
         public string VideoLink { get; set; }
         public string StoreId { get; set; }
         public string SearchString { get; set; }
+        public int? QuantitySold { get; set; }
+        public double? Rating { get; set; }
+        public bool? IsDiscountPercent { get; set; }
+        public double? DiscountAmount { get; set; }
 
         public virtual ProductCategory ProductCategory { get; set; }
         public virtual Store Store { get; set; }
