@@ -70,6 +70,7 @@ namespace Sale.Controllers
                 newUser.CreatedAt = DateTime.Now;
                 newUser.IsBaned = false;
                 newUser.ShipAddressId = Guid.Empty.ToString();
+                newUser.PassWord = await this.utilsRepository.HashPassword(newUser.PassWord);
 
                 bool result = await this.userRepository.AddNewUser(newUser);
                 if (!result) 
@@ -113,8 +114,8 @@ namespace Sale.Controllers
                     return Ok(repData);
                 }
            
-                //string password = await this.userRepository.CreateMD5(Password);
-                if (customer.PassWord != password)
+                bool verifyPassword = await this.utilsRepository.VerifyPassword(password, customer.PassWord);
+                if (!verifyPassword)
                 {
                     repData.message = "Mật khẩu không đúng";
                     return Ok(repData);
@@ -125,6 +126,19 @@ namespace Sale.Controllers
                     repData.message = "Tài khoản đã bị khóa bởi Quản Trị Viên";
                     return Ok(repData);
                 }
+
+                // Tạo một cookie với tên và giá trị
+                var cookieName = "MyCookie";
+                var cookieValue = "ThisIsMyCookieValue";
+
+                // Thêm cookie vào response
+                Response.Cookies.Append(cookieName, cookieValue, new CookieOptions
+                {
+                    HttpOnly = true, // Bảo mật, không thể truy cập từ JavaScript
+                    Secure = true,   // Chỉ gửi cookie qua HTTPS
+                    SameSite = SameSiteMode.Strict, // Cookie không gửi khi redirect
+                    Expires = DateTimeOffset.UtcNow.AddDays(7) // Hết hạn sau 7 ngày
+                });
 
                 repData = await ResponseSucceeded();
                 repData.data = new

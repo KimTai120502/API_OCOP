@@ -17,5 +17,8 @@ namespace sv.Sale
         public Task DeleteAddress(string addressID);
         public Task UpdateAddress(UserAddress address);
         public Task<List<UserAddress>> GetUserAddressList(string userID);
+
+        public Task<string> HashPassword(string password);
+        public Task<bool> VerifyPassword(string password, string hashedPassword);
     }
 }
