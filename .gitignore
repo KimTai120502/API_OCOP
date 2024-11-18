@@ -1,50 +1,18 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
-
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-# System files
-.DS_Store
-Thumbs.db
+.vs/OCOP_API/config/applicationhost.config
+.vs/OCOP_API/FileContentIndex/a05bc52b-9b9c-42ac-9b33-3af84baf8e71.vsidx
+.vs/OCOP_API/v17/.suo
+/.vs/OCOP_API/DesignTimeBuild
+/.vs/OCOP_API/FileContentIndex
+/.vs/OCOP_API/v17
+/.vs/ProjectEvaluation
+/Common/sv.Sale/obj
+/Common/sv.Account/obj
+/Common/sv.DataUtil/obj
+/Services/Sale/obj
+/Services/Sale/bin
 /.vs
-/obj
-/testApi-1
-/testApi
-src/app/views/master/master2.component.html
-src/app/views/master/master2.component.html
-yarn.lock
-yarn.lock
+/sv.Sale/obj
+/sv.Sale/bin
+/Services/Sale/Properties/PublishProfiles
+/Tools
