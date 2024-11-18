@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using sv.Sale.Context;
 using sv.Sale.DBModels;
@@ -124,6 +125,34 @@ namespace sv.Sale
                 throw ex;
             }
         }
+
+        public async Task UpdateProduct(Product product)
+        {
+
+            try
+            {
+                using (var transaction = await this.dbContext.Database.BeginTransactionAsync())
+                {
+                    try
+                    {
+                        this.dbContext.Entry(product).State = EntityState.Modified;
+                        await this.dbContext.SaveChangesAsync();
+                        await transaction.CommitAsync();
+                    }
+                    catch (Exception ex)
+                    {
+                        await transaction.RollbackAsync();
+                        throw ex;
+                    }
+
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public async Task AddProductImg(ProductImage img)
         {
 

@@ -119,3 +119,4 @@ D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Service\Sale\bin\Debug\net7.0\sv.S
 D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Service\Sale\bin\Debug\net7.0\sv.Sale.pdb
 D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Service\Sale\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Service\Sale\bin\Debug\net7.0\BCrypt.Net-Next.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Service\Sale\bin\Debug\net7.0\web.config

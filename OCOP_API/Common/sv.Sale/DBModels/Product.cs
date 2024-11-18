@@ -30,7 +30,9 @@ namespace sv.Sale.DBModels
         public bool? IsDiscountPercent { get; set; }
         public double? DiscountAmount { get; set; }
         public string MainImage { get; set; }
+        public int? DistrictId { get; set; }
 
+        public virtual District District { get; set; }
         public virtual ProductCategory ProductCategory { get; set; }
         public virtual Store Store { get; set; }
         public virtual ICollection<Cart> Carts { get; set; }

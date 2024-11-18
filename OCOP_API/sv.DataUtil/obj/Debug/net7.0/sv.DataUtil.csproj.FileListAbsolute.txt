@@ -1,0 +1,12 @@
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\bin\Debug\net7.0\sv.DataUtil.deps.json
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\bin\Debug\net7.0\sv.DataUtil.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\bin\Debug\net7.0\sv.DataUtil.pdb
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\obj\Debug\net7.0\sv.DataUtil.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\obj\Debug\net7.0\sv.DataUtil.AssemblyInfoInputs.cache
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\obj\Debug\net7.0\sv.DataUtil.AssemblyInfo.cs
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\obj\Debug\net7.0\sv.DataUtil.csproj.CoreCompileInputs.cache
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\obj\Debug\net7.0\sv.DataUtil.sourcelink.json
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\obj\Debug\net7.0\sv.DataUtil.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\obj\Debug\net7.0\refint\sv.DataUtil.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\obj\Debug\net7.0\sv.DataUtil.pdb
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\sv.DataUtil\obj\Debug\net7.0\ref\sv.DataUtil.dll

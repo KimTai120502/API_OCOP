@@ -13,9 +13,10 @@ namespace sv.Sale.DBModels
         public string UnitId { get; set; }
         public string UnitName { get; set; }
         public string DiscountId { get; set; }
-        public double? DiscountPercent { get; set; }
+        public double? DiscountValue { get; set; }
         public string ProductId { get; set; }
         public string OrderId { get; set; }
+        public int? TotalAmount { get; set; }
 
         public virtual Discount Discount { get; set; }
         public virtual Order Order { get; set; }

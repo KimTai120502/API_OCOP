@@ -16,6 +16,7 @@ namespace sv.Sale
         public Task<List<Product>> SearchProduct(string searchString, string storeID, string productCategoryID);
         public Task AddProductImg(ProductImage img);
         public Task AddProduct(Product product, List<ProductImage> imgList);
+        public Task UpdateProduct(Product product);
         public Task AddRating(Rating rating);
         public Task<List<Rating>> getRatingListByProductID(string productID);
     }

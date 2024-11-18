@@ -345,7 +345,7 @@ namespace sv.Sale.DBModels
                     .IsUnicode(false)
                     .HasColumnName("discountID");
 
-                entity.Property(e => e.DiscountPercent).HasColumnName("discountPercent");
+                entity.Property(e => e.DiscountValue).HasColumnName("discountValue");
 
                 entity.Property(e => e.OrderId)
                     .IsRequired()
@@ -362,6 +362,8 @@ namespace sv.Sale.DBModels
                     .HasColumnName("productID");
 
                 entity.Property(e => e.Quantity).HasColumnName("quantity");
+
+                entity.Property(e => e.TotalAmount).HasColumnName("totalAmount");
 
                 entity.Property(e => e.UnitId)
                     .IsRequired()
@@ -413,6 +415,8 @@ namespace sv.Sale.DBModels
 
                 entity.Property(e => e.DiscountAmount).HasColumnName("discountAmount");
 
+                entity.Property(e => e.DistrictId).HasColumnName("districtID");
+
                 entity.Property(e => e.IsDiscountPercent).HasColumnName("isDiscountPercent");
 
                 entity.Property(e => e.MainImage).HasColumnName("mainImage");
@@ -447,6 +451,11 @@ namespace sv.Sale.DBModels
                 entity.Property(e => e.SubDescription).HasColumnName("subDescription");
 
                 entity.Property(e => e.VideoLink).HasColumnName("videoLink");
+
+                entity.HasOne(d => d.District)
+                    .WithMany(p => p.Products)
+                    .HasForeignKey(d => d.DistrictId)
+                    .HasConstraintName("FK_Product_District");
 
                 entity.HasOne(d => d.ProductCategory)
                     .WithMany(p => p.Products)

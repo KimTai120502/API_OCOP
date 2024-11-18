@@ -9,3 +9,15 @@ D:\STUDY\OCOP_API\Common\sv.Account\obj\Debug\net7.0\sv.Account.dll
 D:\STUDY\OCOP_API\Common\sv.Account\obj\Debug\net7.0\refint\sv.Account.dll
 D:\STUDY\OCOP_API\Common\sv.Account\obj\Debug\net7.0\sv.Account.pdb
 D:\STUDY\OCOP_API\Common\sv.Account\obj\Debug\net7.0\ref\sv.Account.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\bin\Debug\net7.0\sv.Account.deps.json
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\bin\Debug\net7.0\sv.Account.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\bin\Debug\net7.0\sv.Account.pdb
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\obj\Debug\net7.0\sv.Account.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\obj\Debug\net7.0\sv.Account.AssemblyInfoInputs.cache
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\obj\Debug\net7.0\sv.Account.AssemblyInfo.cs
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\obj\Debug\net7.0\sv.Account.csproj.CoreCompileInputs.cache
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\obj\Debug\net7.0\sv.Account.sourcelink.json
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\obj\Debug\net7.0\sv.Account.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\obj\Debug\net7.0\refint\sv.Account.dll
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\obj\Debug\net7.0\sv.Account.pdb
+D:\STUDY\LuanVan\SourceCode\API_OCOP\OCOP_API\Common\sv.Account\obj\Debug\net7.0\ref\sv.Account.dll

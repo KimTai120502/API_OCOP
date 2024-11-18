@@ -471,6 +471,82 @@ namespace Sale.Controllers
                 throw ex;
             }
         }
-        
+
+        [HttpPost]
+        public async Task<ActionResult> SignUpStore([FromBody] Dictionary<string, object> dicData)
+        {
+            try
+            {
+
+                ResponseModel repData = await ResponseFail();
+                if (dicData == null)
+                {
+                    repData.message = "Dữ liệu đầu vào null";
+                    return Ok(repData);
+                }
+
+                string storeName = dicData["storeName"].ToString();
+                string storeLogo = dicData["storeLogo"].ToString();
+                string description = dicData["description"].ToString();
+                string phone = dicData["phone"].ToString();
+                string? email = dicData["email"].ToString();
+                int cityID = Int32.Parse(dicData["cityID"].ToString());
+                int districtID = Int32.Parse(dicData["districtID"].ToString());
+                int wardID = Int32.Parse(dicData["wardID"].ToString());
+                string shortAddress = dicData["shortAddress"].ToString();
+                string accountName = dicData["accountName"].ToString();
+                string password = dicData["password"].ToString();
+
+                bool accountNameExisted = await this.userRepository.CheckStoreExistsByAccountName(accountName);
+                if (accountNameExisted)
+                {
+                    repData = await ResponseFail();
+                    repData.message = "Tên đăng nhập đã tồn tại";
+                    return Ok(repData);
+                }
+
+                Store newStore = new Store();
+                newStore.StoreId = Guid.NewGuid().ToString();
+                newStore.StoreName = storeName;
+                newStore.StoreLogo = storeLogo;
+                newStore.Phone = phone;
+                newStore.Email = email;
+                newStore.CityId = cityID;
+                newStore.DistrictId = districtID;
+                newStore.WardId = wardID;
+                newStore.ShortAddress = shortAddress;
+                newStore.Password = password;
+                newStore.AccountName = accountName;
+                newStore.Wallet = 0;
+                newStore.IsBaned = false;
+
+                City city = await this.utilsRepository.GetCityByID(cityID);
+                District district = await this.utilsRepository.GetDistrictByID(districtID);
+                Ward ward = await this.utilsRepository.GetWardByID(wardID);
+
+                newStore.FullAddress = city.CityName + ", " + district.DistrictName + ", " + ward.WardName + ", " + shortAddress;
+
+
+                newStore.Password = await this.utilsRepository.HashPassword(newStore.Password);
+
+                bool result = await this.userRepository.AddNewStore(newStore);
+                if (!result)
+                {
+                    repData = await ResponseFail();
+                    repData.message = "Tạo tài khoản thất bại";
+                    return Ok(repData);
+                }
+
+
+                repData = await ResponseSucceeded();
+                return Ok(repData);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
     }
 }

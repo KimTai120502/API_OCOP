@@ -14,7 +14,10 @@ namespace sv.Sale
         public Task<bool> AddNewUser(User newUser);
         public Task<bool> UpdateUser(User newUser);
         public Task<bool> CheckUserExistsByPhone(string phone);
+
         public Task<bool> CheckUserExistsByUserName(string userName);
+        public Task<bool> AddNewStore(Store newStore);
+        public Task<bool> CheckStoreExistsByAccountName(string accountName);
 
         #region cryptor
         public Task<string> DecryptString(string encrString);

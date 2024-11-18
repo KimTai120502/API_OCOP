@@ -134,6 +134,48 @@ namespace sv.Sale
                 return userExists <= 0 ? false : true;
             }
         }
+
+        public async Task<bool> AddNewStore(Store newStore)
+        {
+
+            try
+            {
+                using (var transaction = await this.dbContext.Database.BeginTransactionAsync())
+                {
+                    try
+                    {
+                        await this.dbContext.Stores.AddAsync(newStore);
+                        await this.dbContext.SaveChangesAsync();
+                        await transaction.CommitAsync();
+                        return true;
+                    }
+                    catch (Exception ex)
+                    {
+                        await transaction.RollbackAsync();
+                        throw ex;
+                    }
+
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+                throw ex;
+            }
+        }
+
+        public async Task<bool> CheckStoreExistsByAccountName(string accountName)
+        {
+            DynamicParameters param = new DynamicParameters();
+            var query = "SELECT count(*) FROM dbo.[Store] With(nolock) Where accountName = @accountName";
+            param.Add("accountName", accountName);
+
+            using (var connection = this.dapperContext.CreateConnection())
+            {
+                int userExists = await connection.QueryFirstOrDefaultAsync<int>(query, param);
+                return userExists <= 0 ? false : true;
+            }
+        }
         #region Cryptography Function
         /// <summary>
         /// Descrypt GUIID

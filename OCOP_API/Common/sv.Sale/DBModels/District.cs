@@ -9,6 +9,7 @@ namespace sv.Sale.DBModels
     {
         public District()
         {
+            Products = new HashSet<Product>();
             UserAddresses = new HashSet<UserAddress>();
             Wards = new HashSet<Ward>();
         }
@@ -18,6 +19,7 @@ namespace sv.Sale.DBModels
         public int CityId { get; set; }
 
         public virtual City City { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
         public virtual ICollection<UserAddress> UserAddresses { get; set; }
         public virtual ICollection<Ward> Wards { get; set; }
     }

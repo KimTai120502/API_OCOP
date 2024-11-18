@@ -118,6 +118,7 @@ namespace Sale.Controllers
                 string videoLink = dicData["videoLink"].ToString();
                 string mainImage = dicData["mainImage"].ToString();
                 int price = Int32.Parse(dicData["price"].ToString());
+                int districtID = Int32.Parse(dicData["districtID"].ToString());
 
                 List<ProductImage> imgList = JsonConvert.DeserializeObject<List<ProductImage>>(dicData["productImageList"].ToString());
 
@@ -133,6 +134,7 @@ namespace Sale.Controllers
                 product.Price = price;
                 product.Rating = 0;
                 product.StoreId = storeID;
+                product.DistrictId = districtID;
                 product.SearchString = ReplaceUnicode(productName);
 
                 await this.productRepository.AddProduct(product, imgList);
