@@ -94,8 +94,7 @@
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Interface\\IUserRepository.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T14:56:12.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T14:56:12.393Z"
             },
             {
               "$type": "Document",
@@ -170,8 +169,7 @@
               "RelativeToolTip": "Service\\Sale\\Controllers\\BaseController.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAYwB4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T13:25:56.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T13:25:56.021Z"
             },
             {
               "$type": "Document",
@@ -196,8 +194,7 @@
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Implement\\UserRepository.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAAUwGYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T13:02:55.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T13:02:55.55Z"
             },
             {
               "$type": "Document",
@@ -209,8 +206,7 @@
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Interface\\IStoreRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:39:40.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T12:39:40.336Z"
             },
             {
               "$type": "Document",
@@ -258,8 +254,7 @@
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Interface\\IProductRepository.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAUwBIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T15:05:36.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T15:05:36.793Z"
             },
             {
               "$type": "Document",
@@ -271,8 +266,7 @@
               "RelativeToolTip": "Service\\Sale\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAGwAAAAAAAAAAAAkwIgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T15:04:37.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T15:04:37.35Z"
             },
             {
               "$type": "Document",
@@ -284,8 +278,7 @@
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Implement\\UtilsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAALQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T09:02:01.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T09:02:01.846Z"
             },
             {
               "$type": "Document",
@@ -297,8 +290,7 @@
               "RelativeToolTip": "Common\\sv.Sale\\Repository\\Implement\\ProductRepository.cs",
               "ViewState": "AQIAAHQAAAAAAAAAAAAqwIAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T08:52:45.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T08:52:45.567Z"
             }
           ]
         }
