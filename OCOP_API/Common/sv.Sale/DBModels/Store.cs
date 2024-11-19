@@ -10,7 +10,6 @@ namespace sv.Sale.DBModels
         public Store()
         {
             DescriptionImages = new HashSet<DescriptionImage>();
-            Invoices = new HashSet<Invoice>();
             Products = new HashSet<Product>();
             UserReportProducts = new HashSet<UserReportProduct>();
         }
@@ -32,7 +31,6 @@ namespace sv.Sale.DBModels
         public bool? IsBaned { get; set; }
 
         public virtual ICollection<DescriptionImage> DescriptionImages { get; set; }
-        public virtual ICollection<Invoice> Invoices { get; set; }
         public virtual ICollection<Product> Products { get; set; }
         public virtual ICollection<UserReportProduct> UserReportProducts { get; set; }
     }

@@ -9,7 +9,6 @@ namespace sv.Sale.DBModels
     {
         public Order()
         {
-            Invoices = new HashSet<Invoice>();
             OrderDetails = new HashSet<OrderDetail>();
         }
 
@@ -34,7 +33,6 @@ namespace sv.Sale.DBModels
 
         public virtual User Customer { get; set; }
         public virtual Voucher Voucher { get; set; }
-        public virtual ICollection<Invoice> Invoices { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

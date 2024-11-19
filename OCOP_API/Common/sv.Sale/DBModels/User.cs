@@ -10,7 +10,6 @@ namespace sv.Sale.DBModels
         public User()
         {
             Carts = new HashSet<Cart>();
-            Invoices = new HashSet<Invoice>();
             Orders = new HashSet<Order>();
             Ratings = new HashSet<Rating>();
             UserAddresses = new HashSet<UserAddress>();
@@ -32,7 +31,6 @@ namespace sv.Sale.DBModels
 
         public virtual Role Role { get; set; }
         public virtual ICollection<Cart> Carts { get; set; }
-        public virtual ICollection<Invoice> Invoices { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
         public virtual ICollection<Rating> Ratings { get; set; }
         public virtual ICollection<UserAddress> UserAddresses { get; set; }

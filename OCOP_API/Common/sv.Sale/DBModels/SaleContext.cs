@@ -23,7 +23,6 @@ namespace sv.Sale.DBModels
         public virtual DbSet<DescriptionImage> DescriptionImages { get; set; }
         public virtual DbSet<Discount> Discounts { get; set; }
         public virtual DbSet<District> Districts { get; set; }
-        public virtual DbSet<Invoice> Invoices { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         public virtual DbSet<Product> Products { get; set; }
@@ -171,83 +170,6 @@ namespace sv.Sale.DBModels
                     .HasForeignKey(d => d.CityId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_District_City");
-            });
-
-            modelBuilder.Entity<Invoice>(entity =>
-            {
-                entity.ToTable("Invoice");
-
-                entity.Property(e => e.InvoiceId)
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("invoiceID");
-
-                entity.Property(e => e.AccountingDate)
-                    .HasColumnType("datetime")
-                    .HasColumnName("accountingDate");
-
-                entity.Property(e => e.Amount).HasColumnName("amount");
-
-                entity.Property(e => e.CreatedDate)
-                    .HasColumnType("datetime")
-                    .HasColumnName("createdDate");
-
-                entity.Property(e => e.InvoiceName)
-                    .IsRequired()
-                    .HasMaxLength(100)
-                    .HasColumnName("invoiceName");
-
-                entity.Property(e => e.OrderId)
-                    .IsRequired()
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("orderID");
-
-                entity.Property(e => e.StoreId)
-                    .IsRequired()
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("storeID");
-
-                entity.Property(e => e.TotalAmount).HasColumnName("totalAmount");
-
-                entity.Property(e => e.UserId)
-                    .IsRequired()
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("userID");
-
-                entity.Property(e => e.VoucherId)
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("voucherID");
-
-                entity.Property(e => e.VoucherType).HasColumnName("voucherType");
-
-                entity.Property(e => e.VoucherValue).HasColumnName("voucherValue");
-
-                entity.HasOne(d => d.Order)
-                    .WithMany(p => p.Invoices)
-                    .HasForeignKey(d => d.OrderId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Invoice2_Order2");
-
-                entity.HasOne(d => d.Store)
-                    .WithMany(p => p.Invoices)
-                    .HasForeignKey(d => d.StoreId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Invoice2_Store2");
-
-                entity.HasOne(d => d.User)
-                    .WithMany(p => p.Invoices)
-                    .HasForeignKey(d => d.UserId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Invoice2_User2");
-
-                entity.HasOne(d => d.Voucher)
-                    .WithMany(p => p.Invoices)
-                    .HasForeignKey(d => d.VoucherId)
-                    .HasConstraintName("FK_Invoice2_Voucher2");
             });
 
             modelBuilder.Entity<Order>(entity =>
